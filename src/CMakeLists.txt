@@ -11,3 +11,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/../bin)
 
 add_subdirectory(common)
 add_subdirectory(overlay)
+add_subdirectory(yuv2rgb)
+add_subdirectory(single_image)

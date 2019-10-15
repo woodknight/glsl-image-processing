@@ -3,7 +3,6 @@ image processing algorithm using OpenGL shading language
 ```
 mkdir build
 cd build
-ln -s ../assets/ assets
-cmake ..
+cmake ../src
 make
 ```
