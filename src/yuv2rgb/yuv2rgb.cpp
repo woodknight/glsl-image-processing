@@ -108,7 +108,7 @@ int main()
     yuv_file.read(ydata, HEIGHT * WIDTH);
     yuv_file.close();
 
-    yuv_file.open("assets/yuv/YUV_U.bin");
+    yuv_file.open("assets/yuv/YUV_V.bin");
     if(!yuv_file.is_open())
         throw("YUV_U.bin not found");
     yuv_file.read(uvdata, HEIGHT * WIDTH / 2);

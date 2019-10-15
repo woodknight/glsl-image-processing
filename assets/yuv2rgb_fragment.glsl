@@ -12,8 +12,8 @@ void main()
     float r, g, b, y, u, v;
     
     y = texture(ytex, TexCoord).r - 16.0f/255.0f;
-    u = texture(uvtex, TexCoord).r - 0.5f;
-    v = texture(uvtex, TexCoord).g - 0.5f;
+    v = texture(uvtex, TexCoord).r - 0.5f;
+    u = texture(uvtex, TexCoord).g - 0.5f;
 
     r = 1.164 * y + 1.596 * v;
     g = 1.164 * y - 0.813 * v - 0.391 * u;
